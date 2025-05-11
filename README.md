@@ -24,25 +24,44 @@ Este é um projeto completo de uma loja virtual desenvolvido com PHP, utilizando
 ## 📂 Estrutura de pastas
 
 bookstore/
-├── admin-panel/        # Interface administrativa (produtos, pedidos, etc.)
-├── auth/               # Autenticação e login de usuários
-├── categories/         # Gestão e exibição de categorias de produtos
-├── config/             # Configurações do sistema (ex: conexão com banco)
-├── contact.php         # Página de contato
-├── download.php        # Sistema de downloads (ex: e-books)
-├── includes/           # Includes reutilizáveis (ex: header, footer)
-├── index.php           # Página inicial da loja
-├── shopping/           # Carrinho de compras e finalização de pedido
-├── src/                # Funções reutilizáveis e bibliotecas auxiliares
-├── success.php         # Página de sucesso pós-compra
-├── users/              # Gestão de dados dos usuários
-├── SQL_FILE/           # Scripts de criação e popular banco de dados
-├── vendor/             # Dependências instaladas via Composer (ex: Stripe)
-├── composer.json       # Dependências do projeto PHP
-├── composer.lock       # Arquivo de travamento do Composer
-├── .git/               # Dados internos do repositório Git
-└── .gitignore          # Arquivos/pastas ignorados pelo Git
-
+├── admin_panel/            # Interface administrativa (produtos, pedidos, etc.)
+│   ├── dashboard.php
+│   ├── products/
+│   └── orders/
+├── auth/                   # Autenticação e login de usuários
+│   ├── login.php
+│   ├── register.php
+│   └── logout.php
+├── categories/             # Gestão e exibição de categorias
+│   ├── list.php
+│   └── view.php
+├── config/
+│   └── database.php        # Configurações do banco de dados
+├── contact.php             # Página de contato
+├── download.php            # Sistema de downloads
+├── includes/
+│   ├── header.php
+│   ├── footer.php
+│   └── functions.php
+├── index.php               # Página inicial
+├── shopping/
+│   ├── cart.php
+│   └── checkout.php
+├── src/                    # Bibliotecas auxiliares
+│   ├── payment/
+│   └── utilities/
+├── success.php             # Confirmação de compra
+├── users/
+│   ├── profile.php
+│   └── orders.php
+├── SQL_FILE/
+│   ├── schema.sql
+│   └── seeds.sql
+├── vendor/                 # Dependências do Composer
+├── composer.json
+├── composer.lock
+├── .gitignore
+└── README.md
 
 ## 📌 Funcionalidades implementadas
 
