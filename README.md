@@ -23,45 +23,47 @@ Este é um projeto completo de uma loja virtual desenvolvido com PHP, utilizando
 
 ## 📂 Estrutura de pastas
 
+```
 bookstore/
-├── admin_panel/            # Interface administrativa (produtos, pedidos, etc.)
+├── admin_panel/
 │   ├── dashboard.php
 │   ├── products/
 │   └── orders/
-├── auth/                   # Autenticação e login de usuários
+├── auth/
 │   ├── login.php
 │   ├── register.php
 │   └── logout.php
-├── categories/             # Gestão e exibição de categorias
+├── categories/
 │   ├── list.php
 │   └── view.php
 ├── config/
-│   └── database.php        # Configurações do banco de dados
-├── contact.php             # Página de contato
-├── download.php            # Sistema de downloads
+│   └── database.php
+├── contact.php
+├── download.php
 ├── includes/
 │   ├── header.php
 │   ├── footer.php
 │   └── functions.php
-├── index.php               # Página inicial
+├── index.php
 ├── shopping/
 │   ├── cart.php
 │   └── checkout.php
-├── src/                    # Bibliotecas auxiliares
+├── src/
 │   ├── payment/
 │   └── utilities/
-├── success.php             # Confirmação de compra
+├── success.php
 ├── users/
 │   ├── profile.php
 │   └── orders.php
 ├── SQL_FILE/
 │   ├── schema.sql
 │   └── seeds.sql
-├── vendor/                 # Dependências do Composer
+├── vendor/
 ├── composer.json
 ├── composer.lock
 ├── .gitignore
 └── README.md
+```
 
 ## 📌 Funcionalidades implementadas
 
