@@ -24,24 +24,24 @@ Este é um projeto completo de uma loja virtual desenvolvido com PHP, utilizando
 ## 📂 Estrutura de pastas
 
 bookstore/
-├── admin-panel/ # Interface administrativa (produtos, pedidos, etc.)
-├── auth/ # Autenticação e login de usuários
-├── categories/ # Gestão e exibição de categorias de produtos
-├── config/ # Configurações do sistema (ex: conexão com banco)
-├── contact.php # Página de contato
-├── download.php # Sistema de downloads (ex: e-books)
-├── includes/ # Includes reutilizáveis (ex: header, footer)
-├── index.php # Página inicial da loja
-├── shopping/ # Carrinho de compras e finalização de pedido
-├── src/ # Funções reutilizáveis e bibliotecas auxiliares
-├── success.php # Página de sucesso pós-compra
-├── users/ # Gestão de dados dos usuários
-├── SQL_FILE/ # Scripts de criação e popular banco de dados
-├── vendor/ # Dependências instaladas via Composer (ex: Stripe)
-├── composer.json # Dependências do projeto PHP
-├── composer.lock # Arquivo de travamento do Composer
-├── .git/ # Dados internos do repositório Git
-└── .gitignore # Arquivos/pastas ignorados pelo Git
+├── admin-panel/        # Interface administrativa (produtos, pedidos, etc.)
+├── auth/               # Autenticação e login de usuários
+├── categories/         # Gestão e exibição de categorias de produtos
+├── config/             # Configurações do sistema (ex: conexão com banco)
+├── contact.php         # Página de contato
+├── download.php        # Sistema de downloads (ex: e-books)
+├── includes/           # Includes reutilizáveis (ex: header, footer)
+├── index.php           # Página inicial da loja
+├── shopping/           # Carrinho de compras e finalização de pedido
+├── src/                # Funções reutilizáveis e bibliotecas auxiliares
+├── success.php         # Página de sucesso pós-compra
+├── users/              # Gestão de dados dos usuários
+├── SQL_FILE/           # Scripts de criação e popular banco de dados
+├── vendor/             # Dependências instaladas via Composer (ex: Stripe)
+├── composer.json       # Dependências do projeto PHP
+├── composer.lock       # Arquivo de travamento do Composer
+├── .git/               # Dados internos do repositório Git
+└── .gitignore          # Arquivos/pastas ignorados pelo Git
 
 
 ## 📌 Funcionalidades implementadas
